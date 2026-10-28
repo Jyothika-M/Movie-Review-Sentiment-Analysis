@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CineSense — Movie Review Sentiment Analyzer
 
 **CineSense** is a production-quality, cinematic AI-powered movie review sentiment analyzer built with a fine-tuned DistilBERT model, a FastAPI backend, and a fully animated vanilla HTML/CSS/JS frontend.
@@ -112,3 +113,6 @@ const MODEL_METRICS = {
 - **`BertTokenizerFast`** with `model_input_names = ["input_ids", "attention_mask"]` ensures `token_type_ids` are never passed to DistilBERT's forward method.
 - **FastAPI lifespan**: Model loaded once at startup using `@asynccontextmanager`, shared across all requests via global `classifier`.
 - **CORS**: Enabled with `CORSMiddleware` to allow the frontend to call from any origin during development.
+=======
+# Movie-Review-Sentiment-Analysis
+>>>>>>> 2e38d9f8c1a48568f5a4c20360fca4cfd897cd72
