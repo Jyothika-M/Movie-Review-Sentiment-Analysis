@@ -7,3 +7,4 @@ __pycache__/
 !.env.example
 .streamlit/secrets.toml
 .ipynb_checkpoints/
+sentiment_model/model.safetensors
